@@ -13,8 +13,8 @@
     <dependencies>
         <dependency>
             <groupId>com.rpc</groupId>
-            <artifactId>miniRpc</artifactId>
-            <version>${project.version}</version>
+           <artifactId>common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>
@@ -57,12 +57,6 @@
             <groupId>com.caucho</groupId>
             <artifactId>hessian</artifactId>
             <version>${hessian.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.rpc</groupId>
-            <artifactId>common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>
