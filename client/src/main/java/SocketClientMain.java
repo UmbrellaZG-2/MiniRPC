@@ -3,6 +3,7 @@ import hello.Hello;
 import hello.HelloService;
 import proxy.RpcClientProxy;
 import remoting.transport.RpcRequestTransport;
+import remoting.transport.socket.SocketRpcClient;
 
 public class SocketClientMain {
     public static void main(String[] args) {
